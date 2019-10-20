@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="editor.Controller_Settings">
+   <children>
+      <ImageView fx:id="image_BACKGROUND" fitHeight="455.0" fitWidth="713.0" layoutX="-1.0" mouseTransparent="true" preserveRatio="true" AnchorPane.bottomAnchor="-55.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-46.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../Resources/images/BACKGROUND.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tf_cmd" layoutX="13.0" layoutY="367.0" prefHeight="27.0" prefWidth="509.0" style="-fx-background-radius: 90; -fx-control-inner-background: BLACK; -fx-text-fill: WHITE;" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="144.0">
+      <font>
+         <Font name="Courier New" size="13.0" />
+      </font></TextField>
+      <Button defaultButton="true" layoutX="522.0" layoutY="367.0" mnemonicParsing="false" onAction="#actionSend" style="-fx-background-radius: 90;" text="Senden" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="79.0" />
+      <Button cancelButton="true" layoutX="587.0" layoutY="367.0" mnemonicParsing="false" onAction="#actionDelete" style="-fx-background-radius: 90;" text="Löschen" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="9.0" />
+      <TextArea fx:id="ta_main" editable="false" layoutX="13.0" layoutY="90.0" prefHeight="271.0" prefWidth="640.0" scrollTop="1.0" style="-fx-control-inner-background: BLACK; -fx-text-fill: WHITE;" text="&#10;" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Courier New" size="13.0" />
+         </font></TextArea>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#actionRestart" style="-fx-background-radius: 90;" text="Raspi neustarten" />
+      <Button layoutX="13.0" layoutY="50.0" mnemonicParsing="false" onAction="#actionShutdown" style="-fx-background-radius: 90;" text="Raspi Herunterfahren" />
+      <Button disable="true" layoutX="142.0" layoutY="14.0" mnemonicParsing="false" onAction="#actionAutostart" style="-fx-background-radius: 90;" text="Soundboard in Autostart schreiben" />
+      <Button layoutX="170.0" layoutY="50.0" mnemonicParsing="false" onAction="#actionUpdate" style="-fx-background-radius: 90;" text="Update durchführen" />
+      <Button layoutX="319.0" layoutY="50.0" mnemonicParsing="false" onAction="#actionUpgrade" style="-fx-background-radius: 90;" text="Upgrade durchführen" />
+      <ProgressIndicator fx:id="progress" layoutX="262.0" layoutY="143.0" prefHeight="115.0" prefWidth="143.0" visible="false" />
+   </children>
+</AnchorPane>

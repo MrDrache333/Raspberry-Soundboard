@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Soundboard">
+    <output-path>$PROJECT_DIR$/out/artifacts/Soundboard</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="editor.Main" />
+        <option name="description" value="" />
+        <option name="height" value="600" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/Resources/images/BUTTONRELEASED.png" />
+            <option name="macIcon" value="$PROJECT_DIR$/Resources/images/BUTTONRELEASED.png" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/Resources/images/BUTTONRELEASED.png" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="title" value="Soundboard" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0" />
+        <option name="width" value="1000" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Soundboard.jar">
+        <element id="module-output" name="Soundboard" />
+      </element>
+      <element id="directory" name="images">
+        <element id="dir-copy" path="$PROJECT_DIR$/Resources/images" />
+      </element>
+      <element id="directory" name="library">
+        <element id="library" level="project" name="jcifs-1.3.18" />
+        <element id="library" level="project" name="jsch-0.1.54" />
+      </element>
+    </root>
+  </artifact>
+</component>

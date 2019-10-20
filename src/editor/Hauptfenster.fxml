@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="editor.Controller">
+   <children>
+      <ImageView fx:id="image_BACKGROUND" fitHeight="600.0" fitWidth="1000.0" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../Resources/images/BACKGROUND.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_LCD" fitHeight="123.0" fitWidth="337.0" layoutX="338.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/LCD.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="l_LCD_LINE1" alignment="CENTER" layoutX="351.0" layoutY="46.0" prefHeight="39.0" prefWidth="312.0" text="Starte" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Andale Mono" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="l_LCD_LINE2" alignment="CENTER" layoutX="351.0" layoutY="79.0" prefHeight="39.0" prefWidth="312.0" text="Soundboard Pi" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Andale Mono" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image_Taster1" fitHeight="106.0" fitWidth="120.0" layoutX="50.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster7" fitHeight="106.0" fitWidth="120.0" layoutX="50.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster13" fitHeight="106.0" fitWidth="120.0" layoutX="50.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster14" fitHeight="106.0" fitWidth="120.0" layoutX="170.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster8" fitHeight="106.0" fitWidth="120.0" layoutX="170.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster2" fitHeight="106.0" fitWidth="120.0" layoutX="170.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster4" fitHeight="106.0" fitWidth="120.0" layoutX="410.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster10" fitHeight="106.0" fitWidth="120.0" layoutX="410.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster16" fitHeight="106.0" fitWidth="120.0" layoutX="410.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster15" fitHeight="106.0" fitWidth="120.0" layoutX="289.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster9" fitHeight="106.0" fitWidth="120.0" layoutX="289.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster3" fitHeight="106.0" fitWidth="120.0" layoutX="290.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster21" fitHeight="106.0" fitWidth="120.0" layoutX="289.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster22" fitHeight="106.0" fitWidth="120.0" layoutX="410.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster20" fitHeight="106.0" fitWidth="120.0" layoutX="170.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster19" fitHeight="106.0" fitWidth="120.0" layoutX="50.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster24" fitHeight="106.0" fitWidth="120.0" layoutX="650.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster23" fitHeight="106.0" fitWidth="120.0" layoutX="530.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster5" fitHeight="106.0" fitWidth="120.0" layoutX="530.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster11" fitHeight="106.0" fitWidth="120.0" layoutX="530.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster17" fitHeight="106.0" fitWidth="120.0" layoutX="530.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster18" fitHeight="106.0" fitWidth="120.0" layoutX="650.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster12" fitHeight="106.0" fitWidth="120.0" layoutX="650.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster6" fitHeight="106.0" fitWidth="120.0" layoutX="650.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster25" fitHeight="106.0" fitWidth="120.0" layoutX="860.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster26" fitHeight="106.0" fitWidth="120.0" layoutX="860.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image_Taster27" fitHeight="106.0" fitWidth="120.0" layoutX="860.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resources/images/BUTTONRELEASED.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="136.0" layoutY="231.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="1">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="231.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="231.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="736.0" layoutY="231.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="616.0" layoutY="231.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="496.0" layoutY="231.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="496.0" layoutY="336.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="10">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="616.0" layoutY="336.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="11">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="736.0" layoutY="336.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="12">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="336.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="9">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="336.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="8">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="336.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="7">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="442.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="13">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="442.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="14">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="442.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="15">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="736.0" layoutY="442.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="18">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="616.0" layoutY="442.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="17">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="496.0" layoutY="442.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="16">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="547.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="19">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="547.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="20">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="547.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="21">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="736.0" layoutY="547.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="24">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="616.0" layoutY="547.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="23">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="496.0" layoutY="547.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="22">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="946.0" layoutY="231.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="25">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="946.0" layoutY="372.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="26">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="946.0" layoutY="515.0" mouseTransparent="true" pickOnBounds="false" prefHeight="26.0" prefWidth="30.0" text="27">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="l_LED1" layoutX="821.0" layoutY="190.0" prefHeight="32.0" prefWidth="30.0" style="-fx-background-color: LIME; -fx-border-color: BLACK; -fx-border-radius: 90; -fx-background-radius: 90;" />
+      <Label fx:id="l_LED2" layoutX="821.0" layoutY="330.0" prefHeight="32.0" prefWidth="30.0" style="-fx-background-color: GREEN; -fx-border-color: BLACK; -fx-border-radius: 90; -fx-background-radius: 90;" />
+      <Label fx:id="l_LED3" layoutX="821.0" layoutY="474.0" prefHeight="32.0" prefWidth="30.0" style="-fx-background-color: GREEN; -fx-border-color: BLACK; -fx-border-radius: 90; -fx-background-radius: 90;" />
+      <Label alignment="CENTER" layoutX="860.0" layoutY="259.0" prefHeight="29.0" prefWidth="106.0" style="-fx-background-color: WHITE; -fx-background-radius: 90;" text="Profil 1">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="860.0" layoutY="398.0" prefHeight="29.0" prefWidth="106.0" style="-fx-background-color: WHITE; -fx-background-radius: 90;" text="Profil 2">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="860.0" layoutY="543.0" prefHeight="29.0" prefWidth="106.0" style="-fx-background-color: WHITE; -fx-background-radius: 90;" text="Profil 3">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="713.0" layoutY="15.0" text="Modus">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="15.0" text="Raspberry Pi Anmeldedaten">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_ip" layoutX="132.0" layoutY="43.0" prefHeight="27.0" prefWidth="130.0" promptText="000.000.000.000" style="-fx-background-radius: 45;" />
+      <TextField fx:id="tf_user" layoutX="132.0" layoutY="77.0" prefHeight="27.0" prefWidth="91.0" promptText="Pi" style="-fx-background-radius: 90;">
+         <font>
+            <Font size="11.0" />
+         </font></TextField>
+      <PasswordField fx:id="pf_pass" layoutX="228.0" layoutY="77.0" prefHeight="27.0" prefWidth="106.0" promptText="raspberry" style="-fx-background-radius: 90;">
+         <font>
+            <Font size="11.0" />
+         </font></PasswordField>
+      <RadioButton fx:id="rb_change" layoutX="699.0" layoutY="85.0" mnemonicParsing="false" onAction="#mode_changeAction" text="Ändern">
+         <toggleGroup>
+            <ToggleGroup fx:id="mode" />
+         </toggleGroup>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rb_test" layoutX="699.0" layoutY="52.0" mnemonicParsing="false" onAction="#mode_testAction" selected="true" text="Testen" toggleGroup="$mode">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="47.0" prefHeight="19.0" prefWidth="124.0" text="Host: ">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="81.0" prefHeight="19.0" prefWidth="124.0" text="Benutzer &amp; Pass:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_save" alignment="CENTER" layoutX="831.0" layoutY="86.0" mnemonicParsing="false" onAction="#saveAction" prefHeight="39.0" prefWidth="138.0" style="-fx-background-radius: 90;" text="SPEICHERN" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_apply" alignment="CENTER" layoutX="831.0" layoutY="33.0" mnemonicParsing="false" onAction="#applyAction" prefHeight="39.0" prefWidth="138.0" style="-fx-background-radius: 90;" text="ÜBERNEHMEN" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="l_LED4" layoutX="37.0" layoutY="109.0" prefHeight="27.0" prefWidth="27.0" style="-fx-background-color: RED; -fx-border-color: BLACK; -fx-border-radius: 90; -fx-background-radius: 90;" />
+      <Label fx:id="l_raspiStatus" layoutX="72.0" layoutY="111.0" prefHeight="22.0" prefWidth="262.0" text="Nicht Verbunden">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="l_hover" alignment="CENTER" layoutX="363.0" layoutY="4.0" prefHeight="22.0" prefWidth="288.0" style="-fx-background-color: lightgrey; -fx-background-radius: 20;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_more" disable="true" layoutX="271.0" layoutY="43.0" mnemonicParsing="false" onAction="#opensettings" style="-fx-background-radius: 90;" text="Mehr..." />
+      <Button fx:id="btn_find" layoutX="21.0" layoutY="43.0" mnemonicParsing="false" onAction="#findAction" style="-fx-background-radius: 90;" text="Finden" AnchorPane.topAnchor="43.0" />
+      <ListView fx:id="finder_list" layoutX="7.0" layoutY="75.0" prefHeight="142.0" prefWidth="327.0" style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-inner-background-radius: 10;" visible="false" />
+      <ProgressIndicator fx:id="finder_progress" layoutX="139.0" layoutY="104.0" prefHeight="69.0" prefWidth="64.0" visible="false" />
+      <Label layoutX="4.0" layoutY="578.0" text="Version:" />
+      <Label fx:id="l_version" layoutX="63.0" layoutY="578.0" text="00.00" />
+      <Button layoutX="103.0" layoutY="573.0" mnemonicParsing="false" onAction="#showChangelog" style="-fx-background-radius: 90; -fx-background-color: LIGHTBLUE; -fx-border-color: WHITE; -fx-border-radius: 90;" text="?">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="968.0" layoutY="568.0" mnemonicParsing="false" onAction="#showProgramInfo" prefHeight="29.0" prefWidth="30.0" style="-fx-background-radius: 90; -fx-background-color: LIGHTBLUE; -fx-border-color: WHITE; -fx-border-radius: 90;" text="?" />
+   </children>
+</AnchorPane>

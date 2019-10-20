@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Resources.soundboard.RPi" />
+          <option value="time" />
+          <option value="smbus" />
+          <option value="Resources.soundboard.pygame" />
+          <option value="os" />
+          <option value="Resources.soundboard.open" />
+          <option value="Resources.soundboard.hex" />
+          <option value="Resources.soundboard.range" />
+          <option value="Resources.soundboard.ord" />
+          <option value="Resources.soundboard.KeyboardInterrupt" />
+          <option value="Resources.soundboard.Exception" />
+          <option value="Resources.soundboard_template.Exception" />
+          <option value="Resources.soundboard_template.hex" />
+          <option value="Resources.soundboard_template.KeyboardInterrupt" />
+          <option value="Resources.soundboard_template.range" />
+          <option value="Resources.soundboard_template.ord" />
+          <option value="Resources.soundboard_template.open" />
+          <option value="Resources.soundboard.sys" />
+          <option value="Soundboard_final.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
