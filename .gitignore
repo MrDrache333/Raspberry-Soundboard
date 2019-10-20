@@ -1,2 +1,7 @@
 # Project exclude paths
 /out/
+*.icloud
+*.properties
+*.log
+/Resources/images/old/
+Queffi*.wav
